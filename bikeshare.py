@@ -9,7 +9,7 @@ CITY_DATA = { 'Chicago': 'chicago.csv',
 """
     Asks user to specify a city, month, and day to analyze.
     Returns:
-        (str) city - name of the city to analyze
+        (str) user_city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
 """
@@ -85,7 +85,10 @@ def load_data(user_city, month, day):
             return df
 
 def time_stats(df):
-            """Displays statistics on the most frequent times of travel."""
+            """Displays statistics on the most frequent times of travel.
+               And also displays the most common month and tge most common
+               day of the week
+            """
             while True:
                 stats = input('Do you want to see statistics on the most frequent times of travel for the day and month chosen(yes/no) \nAns:').lower()
                 if stats == 'yes':
