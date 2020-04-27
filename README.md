@@ -1,5 +1,6 @@
 # UDACITY BIKESHARE PROJECT                                               
 
+## CREATED ON 27TH APIRIL,2020
 ###  Exploring  bike share systems for three major cities in the United States.
 
 This is a repository for a  Bikeshare project. It has a  python code file  that imports data from a dataset of a bikeshare system of 3 cities in USA —Chicago, New York City, and Washington by computing descriptive statistics . Also the code  creates an interactive  user experience in the terminal to present these statistics to the user based on their inputs. Details of the project are as follows:
@@ -28,6 +29,11 @@ __The 4 basic questions that were asked for user inputs were:__
 
 Lets get going :car: :car: :car: :fireworks: :fireworks:
 
+
 ![image](https://user-images.githubusercontent.com/52751600/80293268-975e6980-874d-11ea-9dfa-bb871e25db2d.png)
 
 Photocredit:https://upload.wikimedia.org/wikipedia/commons/8/82/Melbourne_City_Bikes.JPG
+
+
+__Project References__
+1. https://classroom.udacity.com/nanodegrees/nd104-ent/parts/ca3c4c01-1432-4599-8b76-3191fe7b94a6
