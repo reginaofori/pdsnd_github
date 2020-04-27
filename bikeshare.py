@@ -91,10 +91,9 @@ def time_stats(df):
                     start_time = time.time()
                     # display the most common month
                     most_common_month = df['month'].mode()[0]
-                    print("The most common month is :", most_common_month)
                     # display the most common day of week
                     most_common_day_of_week = df['day_of_week'].mode()[0]
-                    print("The most common day of week is :", most_common_day_of_week)
+                    print("The most common month and day of week are {} and {} :" .format(most_common_month,most_common_day_of_week))
                     # display the most common start hour
                     def hr_func(ts):
                         return ts.hour
@@ -117,11 +116,9 @@ def station_stats(df):
                     start_time = time.time()
                     #displaying  most commonly used start station
                     most_used_start_station = df['Start Station'].mode()[0]
-                    print("The most commonly used start station :", most_used_start_station)
-                    print()
+                    print("The most commonly used start station :\n\n", most_used_start_station)
                     #displaying most commonly used end station
                     most_used_end_station = df['End Station'].mode()[0]
-                    print()
                     #displaying the  most frequent combination of start station and end station trip
                     print("The most commonly used start station and end station are : {}, {}".format(most_used_start_station,most_used_end_station))
                     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -141,8 +138,7 @@ def trip_duration_stats(df):
                     print("The total travel time  is :", total_travel)
                     #displaying the mean travel time
                     mean_travel = df['Trip Duration'].mean()
-                    print("The mean travel time is :",mean_travel)
-                    print("\nThis took %s seconds." % (time.time() - start_time))
+                    print("The mean travel time is {}\n Total time taken was {}:".format(mean_travel,time.time() - start_time))
                     print('-'*40)
                     break
                 else:
