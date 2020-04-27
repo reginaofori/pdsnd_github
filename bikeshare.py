@@ -189,8 +189,7 @@ def display_data(df):
                 """
                 #Asking for user input
                 data_choice = input("Would you like to see the raw data for the city chosen(yes/no) \nAns: ").lower()
-                start_num= 0
-                end_num = 5
+                start_num ,end_num = 0 , 5
                 if data_choice == 'yes':
                 #Loop to  continue displaying data upon user's request
                     while end_num <= df.shape[0] - 1:
