@@ -18,6 +18,8 @@ __To complete this project the general software used were:__
 2. A text editor, like [Sublime](https://www.sublimetext.com/3) or [Atom](https://atom.io/).
 3. A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
+To install any of the software, just click any of the links ,you are good to go
+
 __The 4 basic questions that were asked for user inputs were:__
 1. Would you like to see data for Chicago, New York, or Washington?
 2. Would you like to filter the data by month, day, or not at all?
