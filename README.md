@@ -18,7 +18,7 @@ __To complete this project the general software used were:__
 2. A text editor, like [Sublime](https://www.sublimetext.com/3) or [Atom](https://atom.io/).
 3. A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
-_To install any of the software, just click any of the links ,you are good to go_
+*To install any of the software, just click any of the links ,you are good to go :smiley: :smiley:*
 
 __The 4 basic questions that were asked for user inputs were:__
 1. Would you like to see data for Chicago, New York, or Washington?
@@ -26,7 +26,7 @@ __The 4 basic questions that were asked for user inputs were:__
 3. (If they chose month) Which month - January, February, March, April, May, or June?
 4. (If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
 
-
+Lets get going :car: :car: :car: :fireworks: :fireworks:
 
 ![image](https://user-images.githubusercontent.com/52751600/80293268-975e6980-874d-11ea-9dfa-bb871e25db2d.png)
 
